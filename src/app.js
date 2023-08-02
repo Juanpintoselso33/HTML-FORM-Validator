@@ -45,7 +45,8 @@ window.onload = function() {
 };
 
 let submitButton = document.getElementById("submit");
-submitButton.addEventListener("click", function() {
+submitButton.addEventListener("click", function(e) {
+  e.preventDefault();
   let isValid = true;
   let fields = [
     card,
