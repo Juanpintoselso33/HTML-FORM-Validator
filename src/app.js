@@ -64,7 +64,6 @@ submitButton.addEventListener("click", function() {
       errorField(field);
       isValid = false;
     } else {
-      // si no está vacío, remueve la clase bg-danger si existiera
       field.classList.remove("bg-danger");
     }
   });
